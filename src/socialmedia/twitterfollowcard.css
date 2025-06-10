@@ -1,0 +1,45 @@
+
+.card {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 0.8em;
+}
+.card header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.card div {
+    display: flex;
+    flex-direction: column;
+}
+.card header span {
+    opacity: .6;
+}
+.card img {
+    height: 48px;
+    width: 48px;
+    border-radius: 1000px;
+}
+.card .fc-nf {
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+}
+.card .fc-f {
+    color: black;
+    background-color: aqua;
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+}
+.card button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}

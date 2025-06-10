@@ -1,0 +1,122 @@
+body {
+  overflow-x: visible;
+  overflow-y: auto;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+  .header {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    background-color: #860d0d;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  .logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+  .title {
+    font-size: 1.5em;
+    margin: 0;
+    white-space: nowrap;
+  }
+  .headerlinks {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 50px;
+  }
+
+  .headerlinks li {
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    
+  }
+  .headerlinks li:last-child {
+    margin-right: 0;
+  }
+  .headerlinks li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.headerlinks li a:hover {
+  color: #ffffff;
+  background-color: rgba(163, 164, 165, 0.2);
+  outline: none;
+}
+
+.headerlinks li a:focus-visible {
+  outline: 2px solid #00bfff;
+  outline-offset: 2px;
+}
+ .dropdown {
+  position: relative;
+}
+
+.dropdown > span {
+  display: inline-block;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100%);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 8px 0;
+  display: none;
+  min-width: 180px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  z-index: 9999;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 6px 16px;
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}

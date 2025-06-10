@@ -1,0 +1,83 @@
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.homepage {
+    margin: 0;
+    padding: 2rem;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('http://iessantotomasdeaquino.centros.educa.jcyl.es/sitio/upload/img/fachadaportada_resized_1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;               
+    width: 100vw;                   /* Todo el ancho del viewport */
+    margin: 0;                      /* Sin márgenes */
+    padding: 2rem 0;                /* Solo padding vertical */
+    display: flex;
+    flex-direction: column;         
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 2rem;
+    box-sizing: border-box;         /* Para incluir padding en el width */
+}
+
+.home-title {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    text-align: center;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 600;
+    margin: 0;
+    max-width: 800px;               
+    line-height: 1.2;
+    padding: 0 2rem;                /* Padding horizontal solo al texto */
+}
+
+.intro-button {
+    background: #ff0800;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+}
+
+.intro-button:hover {
+    background: #b30000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 0, 0, 0.4);
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.banner {
+    animation: fadeInUp 0.8s ease-out;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
