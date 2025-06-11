@@ -19,7 +19,7 @@ export default function Header() {
             </Link>
           </li>
           <li className="dropdown">
-            <Link>
+            <Link to="/highschool">
               <img src="https://www.svgrepo.com/show/480128/elementary-middle-and-high-school-3.svg" className="icon" alt="home" />
               Instituto
             </Link>

@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import './home.css'
+import News from '../components/news/newsbundle.jsx';
+
+
 
 export default function Home() {
   return (
@@ -12,9 +15,7 @@ export default function Home() {
           <button className="intro-button"><img src="https://www.svgrepo.com/show/533406/book.svg" className='icon'></img>Oferta educativa</button>
         </div>
         <div className="homepage">
-            <p>
-
-            </p>
+            <News />
         </div>
     </>
   )

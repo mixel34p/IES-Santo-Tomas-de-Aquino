@@ -4,7 +4,10 @@ import "./App.css";
 import Header from "./components/main/header.jsx";
 import Home from './pages/home.jsx';
 
+
+
 export function App() {
+
   return (
     <Router>
       <div className="app-container">
