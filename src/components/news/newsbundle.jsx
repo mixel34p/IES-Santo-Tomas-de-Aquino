@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <h1>Ultimas Noticias</h1>
+        <h1>Noticias Destacadas</h1>
       </div>
       <div className="news-grid">
         {noticias.slice(-4).map((noticia) => (

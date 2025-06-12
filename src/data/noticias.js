@@ -1,72 +1,37 @@
 export const noticias = [
   {
     id: 1,
-    title: "Nuevo laboratorio inaugurado en el Instituto Central",
-    text: "El Instituto Central ha inaugurado un laboratorio de última generación para investigaciones científicas.",
-    image: "https://source.unsplash.com/400x200/?laboratorio,escuela",
-    fullText: "El Instituto Central ha dado un paso significativo en su compromiso con la educación científica al inaugurar un laboratorio de última generación. Este espacio, equipado con tecnología de punta, permitirá a los estudiantes realizar investigaciones avanzadas en diversas áreas de la ciencia. El laboratorio cuenta con microscopios digitales, equipos de análisis químico y estaciones de trabajo computarizadas."
+    title: "NUEVO CICLO FORMATIVO",
+    text: "El Instituto ha anunciado la apertura de un nuevo ciclo formativo para el curso 2025-2026.",
+    image: "http://iessantotomasdeaquino.centros.educa.jcyl.es/sitio/upload/img/LOGO_DPTO_DEFI_GRANDE.png",
+    fullText: "El nuevo ciclo formativo estará orientado a la educación infantil, ofreciendo una formación integral y práctica para los futuros educadores. Las inscripciones estarán abiertas a partir del próximo mes de abril y se espera una gran demanda debido a la alta calidad educativa que ofrece el Instituto. Los interesados podrán obtener más información en la página web oficial del centro."
   },
   {
     id: 2,
-    title: "Estudiantes ganan concurso nacional de robótica",
-    text: "Un equipo del Instituto se llevó el primer lugar en el concurso nacional de robótica realizado en la capital.",
-    image: "https://source.unsplash.com/400x200/?robotica,estudiantes",
-    fullText: "El equipo de robótica del Instituto, conformado por cinco estudiantes destacados, se alzó con el primer lugar en el Concurso Nacional de Robótica 2025. Su proyecto, un robot autónomo diseñado para asistir en tareas de rescate, impresionó al jurado por su innovación y aplicación práctica. Este logro no solo destaca el talento de nuestros estudiantes sino también la calidad de nuestra enseñanza en tecnología."
+    title: "Liga Futbol Sala en los recreos",
+    text: "El Instituto ha organizado una liga de fútbol sala durante los recreos para fomentar la actividad física y el trabajo en equipo.",
+    image: "https://www.desdemonegros.com/wp-content/uploads/2023/09/campeonato_futbol_sala_bujaraloz.jpg",
+    fullText: "La liga de fútbol sala ha sido un éxito rotundo, con la participación de numerosos equipos formados por estudiantes de diferentes cursos. Los partidos se llevan a cabo en el pabellón del Instituto y han generado un ambiente de camaradería y competencia sana. Además, se están realizando talleres de formación en valores deportivos para todos los participantes."
   },
   {
     id: 3,
-    title: "El Instituto lanza campaña ecológica",
-    text: "Con el objetivo de reducir residuos, el Instituto lanzó una campaña de reciclaje liderada por sus estudiantes.",
-    image: "https://source.unsplash.com/400x200/?ecologia,reciclaje",
-    fullText: "La nueva iniciativa ecológica del Instituto busca crear conciencia sobre la importancia del reciclaje y la reducción de residuos. Los estudiantes han instalado puntos de reciclaje en todo el campus y organizan talleres semanales sobre sostenibilidad. La campaña incluye también un sistema de compostaje para los residuos orgánicos de la cafetería."
+    title: "Viaje de 2 de BACH a Marruecos",
+    text: "Un grupo de estudiantes de 2º de Bachillerato realizó un viaje educativo a Marruecos.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnchhLHk2WqkH1CnxUIHXcL7IwrZgIjYZuuQ&s",
+    fullText: "El viaje a Marruecos tuvo como objetivo conocer de cerca la cultura y tradiciones del país. Los estudiantes visitaron lugares emblemáticos como Marrakech y el desierto del Sahara, participando en talleres de artesanía y gastronomía local. Esta experiencia enriquecedora permitió a los alumnos ampliar sus horizontes y fomentar el respeto por la diversidad cultural."
   },
   {
     id: 4,
-    title: "Exalumnos del Instituto crean startup tecnológica",
-    text: "Dos exalumnos fundaron una startup enfocada en inteligencia artificial con sede en Silicon Valley.",
-    image: "https://source.unsplash.com/400x200/?startup,tecnologia",
-    fullText: "Los exalumnos Carlos Martínez y Ana López han fundado una prometedora startup en Silicon Valley. Su empresa, especializada en soluciones de inteligencia artificial, ya ha recibido financiamiento por más de 2 millones de dólares. Este logro demuestra el alto nivel de preparación que reciben nuestros estudiantes y su capacidad para destacar en el ámbito tecnológico internacional."
+    title: "Acto de Graducación 4º de ESO",
+    text: "El Instituto celebró el acto de graduación de los estudiantes de 4º de ESO con una ceremonia emotiva.",
+    image: "https://cronicasdeunpueblo.es/upload/img/periodico/img_60580.jpg",
+    fullText: "El acto de graduación de 4º de ESO se llevó a cabo en el aula SUM del Instituto, donde se reconoció el esfuerzo y dedicación de los estudiantes durante sus años de formación. Los discursos emotivos de profesores y alumnos resaltaron los logros alcanzados y las amistades forjadas. Al finalizar, se entregaron diplomas y se realizó un brindis por el futuro de los graduados."
   },
   {
     id: 5,
-    title: "Profesores publican investigación sobre energías renovables",
-    text: "Un grupo de docentes publicó en una revista científica internacional un estudio sobre energía solar.",
-    image: "https://source.unsplash.com/400x200/?energia,solar",
-    fullText: "El equipo de investigación del departamento de Física, liderado por la Dra. María González, ha publicado un innovador estudio sobre eficiencia en paneles solares en la prestigiosa revista 'Science Today'. La investigación propone nuevos métodos para mejorar la captación de energía solar, con potenciales aplicaciones en la industria energética."
-  },
-  {
-    id: 6,
-    title: "El Instituto ofrece nuevas becas para estudiantes destacados",
-    text: "A partir del próximo semestre, se entregarán becas del 100% a los mejores promedios académicos.",
-    image: "https://source.unsplash.com/400x200/?becas,estudiantes",
-    fullText: "El programa de becas 2025-2026 ofrecerá cobertura completa a estudiantes con excelencia académica. Esta iniciativa busca reconocer el esfuerzo y dedicación de nuestros alumnos, facilitando su continuidad educativa. Las becas incluirán también un estipendio para materiales y recursos educativos."
-  },
-  {
-    id: 7,
-    title: "Simulacro de evacuación se realiza con éxito",
-    text: "El Instituto realizó un simulacro de evacuación con la participación de todo el alumnado y cuerpo docente.",
-    image: "https://source.unsplash.com/400x200/?simulacro,escuela",
-    fullText: "El simulacro anual de evacuación se llevó a cabo con total éxito, demostrando la eficacia de nuestros protocolos de seguridad. Todo el personal y estudiantes evacuaron el edificio en menos de 3 minutos, cumpliendo con los estándares internacionales de seguridad. El ejercicio incluyó situaciones de emergencia simuladas y coordinación con servicios de emergencia locales."
-  },
-  {
-    id: 8,
-    title: "Nueva biblioteca digital disponible para la comunidad",
-    text: "Se ha habilitado una plataforma en línea con acceso a más de 10,000 libros y recursos educativos.",
-    image: "https://source.unsplash.com/400x200/?biblioteca,digital",
-    fullText: "La nueva biblioteca digital del Instituto ofrece acceso 24/7 a una extensa colección de recursos académicos. La plataforma incluye libros electrónicos, revistas científicas, bases de datos académicas y material multimedia. Los estudiantes pueden acceder a estos recursos desde cualquier dispositivo, facilitando el aprendizaje a distancia."
-  },
-  {
-    id: 9,
-    title: "Estudiante desarrolla app para mejorar la salud mental",
-    text: "Una estudiante del último año creó una aplicación que ayuda a gestionar el estrés y la ansiedad.",
-    image: "https://source.unsplash.com/400x200/?app,salud",
-    fullText: "Laura Sánchez, estudiante de último año, ha desarrollado una innovadora aplicación móvil para ayudar a la comunidad estudiantil a manejar el estrés y la ansiedad. La app, llamada 'MindfulStudent', ofrece ejercicios de respiración, meditaciones guiadas y seguimiento del estado de ánimo. El proyecto ha sido reconocido por expertos en salud mental y está siendo implementado como prueba piloto en varios institutos."
-  },
-  {
-    id: 10,
-    title: "El Instituto celebra su 50 aniversario",
-    text: "Con un evento especial, el Instituto conmemoró 50 años de compromiso con la educación de calidad.",
-    image: "https://source.unsplash.com/400x200/?aniversario,escuela",
-    fullText: "La celebración del 50 aniversario reunió a generaciones de estudiantes, profesores y personal administrativo. El evento incluyó una ceremonia conmemorativa, exposiciones históricas y presentaciones culturales. Se destacaron los logros alcanzados durante estas cinco décadas y se presentó el plan estratégico para los próximos años."
+    title: "EXÁMENES EXTRAORDINARIOS: BACHILLERATO Y CFGS",
+    text: "El Instituto ha establecido un calendario de exámenes extraordinarios para los estudiantes de Bachillerato y CFGS.",
+    image: "https://media.istockphoto.com/id/1278975233/es/foto/estudiantes-de-secundaria-haciendo-examen-en-el-aula.jpg?s=612x612&w=0&k=20&c=OBNIYSVeg8GMQATs_ya-XAbbEOg5XnEI92XIhvnW5so=",
+    fullText: "Los exámenes extraordinarios se llevarán a cabo en las próximas semanas, brindando a los estudiantes la oportunidad de recuperar materias pendientes. El Instituto ha implementado medidas adicionales de apoyo, incluyendo tutorías y recursos en línea, para ayudar a los alumnos a prepararse adecuadamente."
   }
 ];

@@ -26,7 +26,7 @@ export default function Header() {
              <ul className="dropdown-menu">
                 <li><Link to="/ubicacion">Ubicación</Link></li>
                 <li><Link to="/horarios">Horarios</Link></li>
-                <li><Link to="/">Documentación</Link></li>
+                <li><Link to="/">Calendario Escolar</Link></li>
             </ul>
            </li>
             <li className="dropdown">
@@ -53,7 +53,7 @@ export default function Header() {
             </ul>
            </li>
            <li>
-            <Link to="/">
+            <Link to="/departamentos">
               <img src="https://www.svgrepo.com/show/56020/teacher-briefcase.svg" className="icon" alt="home" />
               Departamentos
             </Link>

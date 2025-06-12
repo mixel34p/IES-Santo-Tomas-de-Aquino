@@ -1,0 +1,277 @@
+/* Contenedor principal de ofertas con centrado real */
+.oferta-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(145deg, #fff 0%, #fefefe 100%);
+}
+
+/* Contenido interno centrado de ofertas */
+.oferta-content {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(135,16,40,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título principal de ofertas */
+.oferta-title {
+  font-size: 2.5rem;
+  color: #871028;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+}
+
+/* Descripción de ofertas */
+.oferta-desc {
+  color: #444;
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Grid de ofertas */
+.oferta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Botones de oferta */
+.oferta-btn {
+  background: linear-gradient(90deg, #871028, #ff6e8b);
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 2rem 1rem 1.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(135,16,40,0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.oferta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(135,16,40,0.15);
+}
+
+/* Iconos de ofertas */
+.oferta-icono {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 2px 6px rgba(255, 243, 246, 0.8));
+}
+
+/* ========== DEPARTAMENTOS ========== */
+
+/* Contenedor principal de departamentos con centrado real */
+.depart-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(145deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+/* Contenido interno centrado de departamentos */
+.depart-content {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(135,16,40,0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título principal de departamentos */
+.depart-title {
+  font-size: 2.3rem;
+  color: #871028;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+}
+
+/* Descripción de departamentos */
+.depart-desc {
+  color: #555;
+  font-size: 1.15rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  width: 100%;
+  max-width: 650px;
+  line-height: 1.5;
+}
+
+/* Grid de departamentos */
+.depart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Botones de departamento */
+.depart-btn {
+  background: linear-gradient(135deg, #871028, #ff6e8b);
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 2.2rem 1.2rem 1.8rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(135,16,40,0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.depart-btn:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(135,16,40,0.18);
+  background: linear-gradient(135deg, #ff6e8b, #871028);
+}
+
+/* Iconos de departamentos */
+.depart-icono {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 3px 8px rgba(255, 255, 255, 0.6));
+  transition: transform 0.2s ease;
+}
+
+.depart-btn:hover .depart-icono {
+  transform: scale(1.05);
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  .oferta-container {
+    padding: 1rem;
+  }
+  
+  .oferta-content {
+    padding: 1.5rem;
+    margin: 0;
+  }
+  
+  .oferta-title {
+    font-size: 2rem;
+  }
+  
+  .oferta-desc {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .oferta-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  /* Departamentos móvil */
+  .depart-container {
+    padding: 1rem;
+  }
+  
+  .depart-content {
+    padding: 1.8rem;
+    margin: 0;
+  }
+  
+  .depart-title {
+    font-size: 2rem;
+  }
+  
+  .depart-desc {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .depart-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .oferta-container {
+    padding: 0.5rem;
+  }
+  
+  .oferta-content {
+    padding: 1rem;
+    border-radius: 16px;
+  }
+  
+  .oferta-title {
+    font-size: 1.8rem;
+  }
+  
+  .oferta-btn {
+    padding: 1.5rem 1rem;
+  }
+  
+  /* Departamentos móvil pequeño */
+  .depart-container {
+    padding: 0.5rem;
+  }
+  
+  .depart-content {
+    padding: 1.2rem;
+    border-radius: 18px;
+  }
+  
+  .depart-title {
+    font-size: 1.8rem;
+  }
+  
+  .depart-btn {
+    padding: 1.8rem 1rem 1.4rem 1rem;
+  }
+  
+  .depart-icono {
+    width: 48px;
+    height: 48px;
+  }
+}

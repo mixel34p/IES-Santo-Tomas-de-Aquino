@@ -9,6 +9,8 @@ import OfertaEducativa from './pages/OfertaEducativa';
 import OfertaDetalle from './pages/OfertaDetalle';
 import Ubicacion from './pages/Ubicacion';
 import Horarios from './pages/Horarios';
+import Departamentos from './pages/Departamentos';
+import DepartDetalle from './pages/DepartDetalle';
 
 
 
@@ -27,6 +29,8 @@ export function App() {
             <Route path="/oferta-educativa/:etapa" element={<OfertaDetalle />} />
             <Route path="/ubicacion" element={<Ubicacion />} />
             <Route path="/horarios" element={<Horarios />} />
+            <Route path="/departamentos" element={<Departamentos />} />
+            <Route path="/departamentos/:id" element={<DepartDetalle />} />
           </Routes>
         </main>
       </div>
