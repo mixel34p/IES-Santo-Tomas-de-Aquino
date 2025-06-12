@@ -5,6 +5,10 @@ import Header from "./components/main/header.jsx";
 import Home from './pages/home.jsx';
 import AllNews from './pages/AllNews';
 import NewsDetail from './pages/NewsDetail';
+import OfertaEducativa from './pages/OfertaEducativa';
+import OfertaDetalle from './pages/OfertaDetalle';
+import Ubicacion from './pages/Ubicacion';
+import Horarios from './pages/Horarios';
 
 
 
@@ -19,6 +23,10 @@ export function App() {
             <Route path="/" element={<Home />} />
             <Route path="/noticias" element={<AllNews />} />
             <Route path="/noticias/:id" element={<NewsDetail />} />
+            <Route path="/oferta-educativa" element={<OfertaEducativa />} />
+            <Route path="/oferta-educativa/:etapa" element={<OfertaDetalle />} />
+            <Route path="/ubicacion" element={<Ubicacion />} />
+            <Route path="/horarios" element={<Horarios />} />
           </Routes>
         </main>
       </div>
