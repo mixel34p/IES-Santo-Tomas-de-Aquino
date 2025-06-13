@@ -11,7 +11,7 @@ import Ubicacion from './pages/Ubicacion';
 import Horarios from './pages/Horarios';
 import Departamentos from './pages/Departamentos';
 import DepartDetalle from './pages/DepartDetalle';
-
+import Calendario from './pages/Calendar'
 
 
 export function App() {
@@ -31,6 +31,7 @@ export function App() {
             <Route path="/horarios" element={<Horarios />} />
             <Route path="/departamentos" element={<Departamentos />} />
             <Route path="/departamentos/:id" element={<DepartDetalle />} />
+            <Route path="/calendario" element={<Calendario />} />
           </Routes>
         </main>
       </div>

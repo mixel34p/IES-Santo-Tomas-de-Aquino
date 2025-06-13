@@ -26,7 +26,7 @@ export default function Header() {
              <ul className="dropdown-menu">
                 <li><Link to="/ubicacion">Ubicación</Link></li>
                 <li><Link to="/horarios">Horarios</Link></li>
-                <li><Link to="/">Calendario Escolar</Link></li>
+                <li><Link to="/calendario">Calendario Escolar</Link></li>
             </ul>
            </li>
             <li className="dropdown">
