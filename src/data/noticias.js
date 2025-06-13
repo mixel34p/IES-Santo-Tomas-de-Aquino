@@ -15,7 +15,7 @@ export const noticias = [
   },
   {
     id: 3,
-    title: "Viaje de 2 de BACH a Marruecos",
+    title: "Viaje de 1 de BACH a Marruecos",
     text: "Un grupo de estudiantes de 2º de Bachillerato realizó un viaje educativo a Marruecos.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnchhLHk2WqkH1CnxUIHXcL7IwrZgIjYZuuQ&s",
     fullText: "El viaje a Marruecos tuvo como objetivo conocer de cerca la cultura y tradiciones del país. Los estudiantes visitaron lugares emblemáticos como Marrakech y el desierto del Sahara, participando en talleres de artesanía y gastronomía local. Esta experiencia enriquecedora permitió a los alumnos ampliar sus horizontes y fomentar el respeto por la diversidad cultural."
@@ -33,5 +33,12 @@ export const noticias = [
     text: "El Instituto ha establecido un calendario de exámenes extraordinarios para los estudiantes de Bachillerato y CFGS.",
     image: "https://media.istockphoto.com/id/1278975233/es/foto/estudiantes-de-secundaria-haciendo-examen-en-el-aula.jpg?s=612x612&w=0&k=20&c=OBNIYSVeg8GMQATs_ya-XAbbEOg5XnEI92XIhvnW5so=",
     fullText: "Los exámenes extraordinarios se llevarán a cabo en las próximas semanas, brindando a los estudiantes la oportunidad de recuperar materias pendientes. El Instituto ha implementado medidas adicionales de apoyo, incluyendo tutorías y recursos en línea, para ayudar a los alumnos a prepararse adecuadamente."
-  }
+  },
+  {
+    id: 6,
+    title: "El mejor profesor del instituto se hace famoso en youtube",
+    text: "Tras años de esfuerzo subiendo videos de electronica, Carlos Manso, consigue por fin los 10M de subs",
+    image: "https://i.ytimg.com/an_webp/9CY_78wo2Fk/mqdefault_6s.webp?du=3000&sqp=CPKIsMIG&rs=AOn4CLDZqWFmbaqyL3AobpGzUjd0HkBq_g",
+    fullText: "Carlos manso llevaba años de trabao solo para logras su meta mas importante, con mucho esfuerzo, consiguio llegar a conocer a mucha gente, incluso consiguendo una reaccion de el famoso Youtuber Rubius. Tras esa reaccion, explotó en popularidad consiguiendo por fin sus ansiados 10M de subs"
+  },
 ];
