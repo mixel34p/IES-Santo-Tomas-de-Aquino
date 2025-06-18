@@ -38,7 +38,7 @@ export const noticias = [
     id: 6,
     title: "Carlos Manso alcanza los 10 millones de suscriptores tras años de esfuerzo y una inesperada reacción de El Rubius.",
     text: "Después de años de trabajo constante y dedicación, Carlos Manso ha logrado alcanzar una de sus metas más importantes: llegar a los 10 millones de suscriptores en su canal de YouTube.",
-    image: "https://i.ytimg.com/an_webp/9CY_78wo2Fk/mqdefault_6s.webp?du=3000&sqp=CPKIsMIG&rs=AOn4CLDZqWFmbaqyL3AobpGzUjd0HkBq_g",
+    image: "https://i.imgur.com/QvokNo9.png",
     fullText: "Con esfuerzo y perseverancia, fue construyendo una comunidad sólida y ganándose el reconocimiento del público. Su popularidad se disparó tras recibir una reacción inesperada por parte del reconocido youtuber El Rubius, lo que marcó un antes y un después en su carrera digital. Este impulso le permitió ganar visibilidad a nivel internacional y atraer a millones de nuevos seguidores. Hoy, Carlos celebra este gran hito como un reflejo del camino recorrido y del impacto que ha logrado generar en la comunidad digital."
   },
 ];
